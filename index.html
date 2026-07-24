@@ -78,8 +78,8 @@
             </nav>
 
             <div class="nav-actions">
-                <a href="tel:0724810237" class="btn btn-ghost hide-mobile">
-                    <i data-lucide="phone"></i> 0724 810 237
+                <a href="tel:0724810237" class="btn btn-ghost hide-mobile" data-phone>
+                    <i data-lucide="phone"></i> <span data-phone>0724 810 237</span>
                 </a>
                 <a href="#contact" class="btn btn-primary">Get Free Quote</a>
                 <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
@@ -136,7 +136,7 @@
         </div>
 
         <div class="hero-float-icons">
-            <a href="tel:0724810237" class="float-icon-btn" aria-label="Call us"><i data-lucide="phone"></i></a>
+            <a href="tel:0724810237" class="float-icon-btn" aria-label="Call us" data-phone><i data-lucide="phone"></i></a>
             <a href="mailto:info@safitimecleaning.co.ke" class="float-icon-btn" aria-label="Email us"><i data-lucide="mail"></i></a>
         </div>
     </section>
@@ -199,8 +199,137 @@
             </div>
 
             <div class="grid grid-3 gap-8">
-                <!-- Service cards repeated... (truncated for brevity) -->
-                <!-- Full content preserved in the complete HTML file -->
+                <!-- Service 1 -->
+                <div class="service-card reveal-up">
+                    <div class="service-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&auto=format&fit=crop" alt="Sofa and Carpet Cleaning" loading="lazy" />
+                        <div class="service-badge-icon"><i data-lucide="armchair"></i></div>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-rating">★★★★★</div>
+                        <h3>Sofa & Carpet Cleaning</h3>
+                        <p>Deep extraction, stain elimination, and steam sanitization for all fabric and leather upholstery.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Deep Steam Extraction</li>
+                            <li><i data-lucide="check"></i> Allergen & Dust Mite Removal</li>
+                            <li><i data-lucide="check"></i> Rapid Dry System</li>
+                        </ul>
+                        <div class="service-card-footer">
+                            <span class="price-tag">From <span>KES 2,500</span></span>
+                            <a href="#contact" class="btn-link">Book Now <i data-lucide="chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card reveal-up">
+                    <div class="service-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=600&auto=format&fit=crop" alt="Post Construction Cleaning" loading="lazy" />
+                        <div class="service-badge-icon"><i data-lucide="hard-hat"></i></div>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-rating">★★★★★</div>
+                        <h3>Post-Construction Cleaning</h3>
+                        <p>Removing fine drywall dust, paint overspray, mortar, and construction residue post-renovation.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Paint & Grout Residue Removal</li>
+                            <li><i data-lucide="check"></i> Detailed Surface Scrubbing</li>
+                            <li><i data-lucide="check"></i> Ready-for-Occupancy Finish</li>
+                        </ul>
+                        <div class="service-card-footer">
+                            <span class="price-tag">From <span>KES 10,000</span></span>
+                            <a href="#contact" class="btn-link">Book Now <i data-lucide="chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card reveal-up">
+                    <div class="service-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format&fit=crop" alt="Move In Out Cleaning" loading="lazy" />
+                        <div class="service-badge-icon"><i data-lucide="truck"></i></div>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-rating">★★★★★</div>
+                        <h3>Move In / Move Out Cleaning</h3>
+                        <p>Top-to-bottom detail cleaning ensuring seamless tenant transitions and full deposit refunds.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Inside Cabinet & Appliance Cleaning</li>
+                            <li><i data-lucide="check"></i> Full Bathroom & Kitchen Scrub</li>
+                            <li><i data-lucide="check"></i> Window Tracks & Baseboards</li>
+                        </ul>
+                        <div class="service-card-footer">
+                            <span class="price-tag">From <span>KES 6,000</span></span>
+                            <a href="#contact" class="btn-link">Book Now <i data-lucide="chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card reveal-up">
+                    <div class="service-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&auto=format&fit=crop" alt="Commercial Office Cleaning" loading="lazy" />
+                        <div class="service-badge-icon"><i data-lucide="building"></i></div>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-rating">★★★★★</div>
+                        <h3>Commercial Office Cleaning</h3>
+                        <p>Recurring and daily office maintenance designed to promote workplace health and corporate image.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Custom Maintenance Schedules</li>
+                            <li><i data-lucide="check"></i> Desk & Electronics Sanitization</li>
+                            <li><i data-lucide="check"></i> Trash Management & Washrooms</li>
+                        </ul>
+                        <div class="service-card-footer">
+                            <span class="price-tag">Custom <span>Quote</span></span>
+                            <a href="#contact" class="btn-link">Book Now <i data-lucide="chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card reveal-up">
+                    <div class="service-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop" alt="Wooden Floor Sanding" loading="lazy" />
+                        <div class="service-badge-icon"><i data-lucide="layers"></i></div>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-rating">★★★★★</div>
+                        <h3>Wooden Floor Sanding & Polish</h3>
+                        <p>Restoring hardwood, parquet, and bamboo floors to eliminate scratches and reinstate high-gloss brilliance.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Dustless Sanding Process</li>
+                            <li><i data-lucide="check"></i> Premium Polyurethane Coating</li>
+                            <li><i data-lucide="check"></i> Scratch & Scuff Repair</li>
+                        </ul>
+                        <div class="service-card-footer">
+                            <span class="price-tag">From <span>KES 350/sqft</span></span>
+                            <a href="#contact" class="btn-link">Book Now <i data-lucide="chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card reveal-up">
+                    <div class="service-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=600&auto=format&fit=crop" alt="Vehicle Interior Detailing" loading="lazy" />
+                        <div class="service-badge-icon"><i data-lucide="car"></i></div>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-rating">★★★★★</div>
+                        <h3>Car Interior Detailing</h3>
+                        <p>Deep interior restoration, roof liner treatment, carpet shampooing, and leather conditioning.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Stain & Odor Neutralization</li>
+                            <li><i data-lucide="check"></i> Roof Lining Deep Clean</li>
+                            <li><i data-lucide="check"></i> Leather Conditioning</li>
+                        </ul>
+                        <div class="service-card-footer">
+                            <span class="price-tag">From <span>KES 3,500</span></span>
+                            <a href="#contact" class="btn-link">Book Now <i data-lucide="chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -480,14 +609,14 @@
                             <div class="detail-icon"><i data-lucide="phone"></i></div>
                             <div>
                                 <strong>Phone / WhatsApp</strong>
-                                <a href="tel:0724810237" data-phone>0724 810 237</a>
+                                <p><a href="tel:0724810237" data-phone>0724 810 237</a></p>
                             </div>
                         </div>
                         <div class="contact-detail-item">
                             <div class="detail-icon"><i data-lucide="mail"></i></div>
                             <div>
                                 <strong>Email Address</strong>
-                                <p><a href="mailto:info@safitimecleaning.co.ke">info@safitimecleaning.co.ke</a></p>
+                                <p><a href="mailto:info@safitimecleaning.co.ke" data-email>info@safitimecleaning.co.ke</a></p>
                             </div>
                         </div>
                         <div class="contact-detail-item">
@@ -577,10 +706,10 @@
                     </a>
                     <p class="text-muted text-sm" style="max-width:300px;">Safitime Cleaning Services is Nairobi's trusted residential and commercial cleaning provider. Committed to delivering spotless environment transformations through safe eco-friendly practices.</p>
                     <div class="social-links" style="margin-top:1.5rem;">
-                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
-                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
-                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" aria-label="Facebook" data-social="facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Instagram" data-social="instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="Twitter" data-social="twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn" data-social="linkedin"><i data-lucide="linkedin"></i></a>
                     </div>
                 </div>
 
@@ -621,13 +750,13 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Safitime Cleaning Services. All Rights Reserved.</p>
+                <p>&copy; <span data-year>2026</span> Safitime Cleaning Services. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <!-- Floating Elements -->
-    <a href="https://wa.me/254724810237?text=Hello%20Safitime%20Cleaning,%20I%20would%20like%20to%20inquire%20about%20your%20services." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/254724810237?text=Hello%20Safitime%20Cleaning,%20I%20would%20like%20to%20inquire%20about%20your%20services." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" data-whatsapp>
         <i data-lucide="message-circle"></i>
     </a>
 
@@ -636,8 +765,8 @@
     </button>
 
     <div class="mobile-bottom-cta">
-        <a href="tel:0724810237"><i data-lucide="phone"></i> Call</a>
-        <a href="https://wa.me/254724810237" target="_blank"><i data-lucide="message-circle"></i> WhatsApp</a>
+        <a href="tel:0724810237" data-phone><i data-lucide="phone"></i> Call</a>
+        <a href="https://wa.me/254724810237?text=Hello%20Safitime%20Cleaning,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" data-whatsapp><i data-lucide="message-circle"></i> WhatsApp</a>
         <a href="#contact"><i data-lucide="file-text"></i> Get Quote</a>
     </div>
 
