@@ -6,10 +6,10 @@
 const CONFIG = {
     // Business Information
     company: {
-        name: "Safitime Cleaning Services",
+        name: "Safi Cleaning Services",
         tagline: "Premium Residential & Commercial Cleaning Nairobi",
         phone: "0724810237",
-        email: "info@safitimecleaning.co.ke",
+        email: "info@saficleaning.co.ke",
         address: "Nairobi, Kenya",
         workingHours: "Monday – Saturday: 8:00 AM – 6:00 PM",
         year: new Date().getFullYear()
