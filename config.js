@@ -10,9 +10,9 @@ const CONFIG = {
     // ============================================================
     company: {
         name: "Safitime Cleaning Services",
-        shortName: "SAFITIME CLEANING",
+        shortName: "SAFI CLEANING",
         tagline: "Premium Residential & Commercial Cleaning Nairobi",
-        description: "Safitime Cleaning Services is Nairobi's trusted residential and commercial cleaning provider. Committed to delivering spotless environment transformations through safe eco-friendly practices.",
+        description: "Safi Cleaning Services is Nairobi's trusted residential and commercial cleaning provider. Committed to delivering spotless environment transformations through safe eco-friendly practices.",
         phone: "0724810237",
         phoneFormatted: "0724 810 237",
         email: "info@safitimecleaning.co.ke",
