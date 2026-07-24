@@ -9,7 +9,7 @@ const CONFIG = {
     // BUSINESS INFORMATION
     // ============================================================
     company: {
-        name: "Safitime Cleaning Services",
+        name: "Safi Cleaning Services",
         shortName: "SAFI CLEANING",
         tagline: "Premium Residential & Commercial Cleaning Nairobi",
         description: "Safi Cleaning Services is Nairobi's trusted residential and commercial cleaning provider. Committed to delivering spotless environment transformations through safe eco-friendly practices.",
